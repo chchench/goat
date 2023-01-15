@@ -1,0 +1,31 @@
+{
+	"testsuite_root": "",
+	"author": "Charles Cheng",
+	"modified_timestamp": "",
+	"testcases": [
+		{
+			"testcase_name": "case01",
+			"testcase_id": "example1",
+			"testcase_description": "Hello World",
+            "testcase_kind": "",
+			"associated_testsuites": "smoke",
+            "program": "testprogs/case01",
+            "cli_parameters": "",
+			"steps_prerun": "make",
+            "steps_postrun": "make",
+            "timeout_secs": 300
+		},
+        {
+			"testcase_name": "case02",
+			"testcase_id": "example2",
+			"testcase_description": "Do nothing program",
+            "testcase_kind": "",
+			"associated_testsuites": "smoke",
+            "program": "testprogs/case02",
+            "cli_parameters": "",
+			"steps_prerun": "make",
+            "steps_postrun": "make",
+            "timeout_secs": 1
+		}
+	]
+}
